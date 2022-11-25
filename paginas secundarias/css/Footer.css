@@ -1,0 +1,75 @@
+@import url(Styles.css);
+
+.rodape{
+    margin: 5em 0 0 0;
+}
+.navegacao{
+    display: inline-flex;
+    background: var(--cor--azul--secundario);
+    font-family: var(--fonte--titulo);
+    font-style: none;
+    font-size: 20px;
+    border: solid 2px var(--cor--branco--principal);
+    width: 1294px;
+    padding: 0.3em;
+    margin: 0px;
+}
+.lista-organizacao{
+    margin: 0 15em 0 20em;
+}
+
+.lista-item{
+    display: inline;
+    margin: 0;
+}
+
+.ancora-item{
+    text-decoration: none;
+    color: var(--cor--laranja--principal);
+    font-weight: 700;
+    margin: 0 2em 0 2em;
+}
+.ancora-item:hover{
+    color: var(--cor--branco--principal);
+}
+
+
+.final{
+    background-color: var(--cor--azul--principal);
+    padding: 1em;
+}
+
+.lista-fim-titulo{
+    color: var(--cor--cinza--principal);
+    font-family: var(--fonte--texto);
+    font-weight: 700;
+    font-size: 25px;
+    margin: 1em;
+}
+
+.lista-fim-titulo:hover{
+    color: var(--cor--branco--principal);
+}
+
+.lista-fim-organização{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.lista-fim-item{
+    display: block;
+    justify-content: space-around;
+    margin: 2em 2em 2em 4em;   
+}
+
+.lista-link{
+    text-decoration: none;
+    font-family: var(--fonte--texto);
+    color: var(--cor--cinza--principal);
+    font-size: 15px;
+}
+
+.lista-link:hover{
+    color: var(--cor--branco--principal);
+}
