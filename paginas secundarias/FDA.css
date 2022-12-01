@@ -1,0 +1,108 @@
+:root{
+    --cor--azul--principal:#072247;
+    --cor--azul--secundario: #1155CC; 
+    --cor--azul--tercerizado:#4A86E8;
+    --cor--branco--principal: #DFD1D1;
+    --cor--laranja--principal: #EB9B00;
+    --cor--preto--principal:#090808;
+    --cor--azul--principal--degrade: linear-gradient(97.54deg, #072247 35.49%, #326589 165.37%);
+    --cor--cinza--principal: #A6A6A6;
+    --cor--vermelho--principal:#300000;
+    --fonte--logo: 'Zen Dots', cursive;; 
+    --fonte--titulo: 'Ubuntu Condensed', sans-serif;;
+    --fonte--texto: 'Josefin Sans', sans-serif;
+    --login--imagem: url(3.jpg);
+    --ondas--transicao: url(Home.png);
+    --img--fundo: url(Home2.png);
+
+}
+body{
+    margin: 0;
+    background-image: url("img/3.jpg");
+}
+
+.cabecalho{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+.logo{
+    color: var(--cor--branco--principal);
+    font-family: var(--fonte--logo);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0em 5em 0em 5em ;
+}
+
+
+
+
+/*
+PARTE CORPO
+*/
+
+
+
+
+.rodape{
+   
+    margin: 5em 0 0 0;
+}
+.navegacao{
+    display: inline-flex;
+    background: var(--cor--azul--secundario);
+    font-family: var(--fonte--titulo);
+    font-style: none;
+    font-size: 20px;
+    border: solid 3px var(--cor--branco--principal);
+    width: 100%;
+    padding: 0.3em;
+}
+.lista-organizacao{
+    margin: 0 15em 0 15em;
+}
+
+.lista-item{
+    display: inline;
+    margin: 0;
+}
+
+.ancora-item{
+    text-decoration: none;
+    color: var(--cor--laranja--principal);
+    font-weight: 700;
+    margin: 0 2em 0 2em;
+}
+.final{
+    background-color: var(--cor--azul--principal);
+    padding: 1em;
+}
+
+.lista-fim-titulo{
+    color: var(--cor--cinza--principal);
+    font-family: var(--fonte--titulo);
+    font-size: 25px;
+    margin: 1em;
+}
+
+.lista-fim-organização{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.lista-fim-item{
+    display: block;
+    justify-content: space-around;
+    margin: 2em;   
+}
+
+.lista-link{
+    text-decoration: none;
+    font-family: var(--fonte--texto);
+    color: var(--cor--cinza--principal);
+    font-size: 15px;
+}
